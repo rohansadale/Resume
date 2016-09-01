@@ -1,2 +1,1 @@
-# Resume
-Resume in Latex
+# Latex version of my resume.
