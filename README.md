@@ -1,4 +1,4 @@
-# Resume created using Latex
+# Resume creation using Latex
 + resume_rohan_sadale.tex contains the code
 + resume_rohan_sadale.pdf is the generated resume
 
