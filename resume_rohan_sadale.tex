@@ -2,7 +2,8 @@
 
 %\pagestyle{empty}
 
-\usepackage[margin=1.6cm]{geometry}
+\usepackage[margin=1.5cm]{geometry}
+\geometry{top=25pt, bottom=25pt}
 \usepackage{multirow}
 \usepackage{supertabular}
 \usepackage{colortbl}
@@ -25,7 +26,6 @@
 
 \usepackage{enumitem}
 \usepackage{lipsum}
-
 %\setlist[itemize]{leftmargin=0in}
 
 \begin{document}
@@ -45,6 +45,7 @@ $^{\text{{\bfseries {\normalsize Email}}: {\normalsize sadal005@umn.edu}}{\text{
 \hrule
 \vspace{-0.2cm}
 \subsection*{\underline{Education}}
+\vspace{-0.1cm}
 \begin{itemize}[leftmargin=*]
 \item[] {\bfseries University of Minnesota}, Minneapolis, MN, USA \hfill September 2015 - Present
 \newline {\sl Master of Science}, Data Science \hspace{0.2in} GPA: 3.75/4.00  \hfill {\sl (expected graduation - May 2017)}
@@ -54,6 +55,7 @@ $^{\text{{\bfseries {\normalsize Email}}: {\normalsize sadal005@umn.edu}}{\text{
 \end{itemize}
 
 \subsection*{\underline{Technical Skills}}
+\vspace{-0.1cm}
 \begin{itemize}[leftmargin=*]
  \item[]  \textbf{Languages:}  Python, C/C++, Javascript, Shell Scripting, PL/SQL
  \vspace{-0.25cm}
@@ -62,9 +64,9 @@ $^{\text{{\bfseries {\normalsize Email}}: {\normalsize sadal005@umn.edu}}{\text{
  \item[]   \textbf{Big Data/Statistical Data Analysis:}   R, Tableau, Hadoop, Pig, Hive, Spark
 \end{itemize}
 
-\subsection*{Industry Experience}
-\begin{itemize}[leftmargin=*]
-\item[] {\bfseries Veritas Technologies LLC}, Mountain View, CA, USA \\
+\subsection*{\underline{Industry Experience}}
+\begin{itemize}[leftmargin=0.15in]
+\item {\bfseries Veritas Technologies LLC}, Mountain View, CA, USA \\
 {\sl Data Analytics Intern}  \hfill June 2016 - September 2016
 \vspace{-0.25cm}
 \begin{itemize}
@@ -74,7 +76,7 @@ $^{\text{{\bfseries {\normalsize Email}}: {\normalsize sadal005@umn.edu}}{\text{
 \item Build models for forecasting disk usage across appliances and predicting appliance failures.
 \end{itemize}
 
-\item[]  {\bfseries Barclays}, Pune, MH, India \\
+\item  {\bfseries Barclays}, Pune, MH, India \\
 {\sl Technology Analyst} \hfill July 2012 – July 2015
 \vspace{-0.25cm}
 \begin{itemize}
@@ -86,69 +88,21 @@ $^{\text{{\bfseries {\normalsize Email}}: {\normalsize sadal005@umn.edu}}{\text{
 \item Delivered Functional specifications, Scope documents, Interface documents and data mapping documents
 \item Implemented and practiced agile methodology for project deliveries. Configured JIRA for the implementation
 \end{itemize}
-
 \end{itemize}
 
-\subsection*{Course Projects}
-\begin{itemize}
-\item {\bfseries A Scalable Movie Recommendation System:} Built a movie recommendation system for suggesting movies to users. The project involved multiple steps such as extracting data from RDBMS, Web Logs and APIs, cleaning data using Hadoop MapReduce jobs, data filtering and transformation using Apache Hive and building scalable item-based recommender using Apache Mahout. (Java, HDFS, Apache Hive, Mahout, R)
-\item {\bfseries MapReduce like Compute Framework:} Developed a MapReduce-like compute framework for performing operations in distributed fashion. The framework would receive jobs from a client, split job into multiple tasks, and assign tasks to compute nodes which performed the computations. Proactive fault tolerance, fault detection and recovery were implemented to guarantee correct results even in the presence of node failures. (Java, Apache Thrift)
-\item {\bfseries Distributed File System:} Implemented a Distributed File System in which clients shared files with each other. Multiple clients could read/write files at the same time and the files would be replicated (distributed) across several file servers. Achieved consistency across these files using Quorum based techniques. (Java, Apache Thrift)
-\item {\bfseries Web Scraping \& Data Analysis:} Developed a web scrapper tool to extract restaurants data across US. The scrapper used a novel technique to locate regions precisely using Google Maps and extracted restaurant info from those regions through Yelp. Later, performed Exploratory data analysis to visualize trends in the data and Sentiment analysis on the user reviews to suggest quality improvements for restaurant owners. (Python, R, MongoDB, XML, JSON)
-\item {\bfseries Distributed Hash Table (DHT):} Implemented a File System using DHT based on Chord protocol. The system comprised of three major components - Clients, Nodes and SuperNode. Clients could read or write files to the file system. Nodes formed DHT with help of SuperNode and were used by clients to read and write files. SuperNode maintained Nodes info, helped nodes form DHT \& assisted clients in writing/reading files from appropriate Nodes. (Java, Apache Thrift)
+\subsection*{\underline{Course Projects}}
+\vspace{-0.1cm}
+\begin{itemize}[leftmargin=0.15in]
+\setlength{\itemsep}{0pt}%
+\item {\bfseries A Scalable Movie Recommendation System:} Built a movie recommendation system for suggesting movies to users. The project involved multiple steps such as extracting data from RDBMS, Web Logs and APIs, cleaning data using Hadoop MapReduce jobs, data filtering and transformation using Apache Hive and building scalable item-based recommender using Apache Mahout.
+
+\item {\bfseries Clustering and Classification of emails:} Implemented \textit{highly efficient} Ridge Regression classifier, kNN classifier, Centroid-based classifier and Spherical k-means for classifying and clustering emails into categories. The project involved multiple steps such as getting the dataset, pre-processing the dataset, classifying/clustering the dataset, and evaluating the quality of the solution.
+
+\item {\bfseries MapReduce like Compute Framework:} Developed a MapReduce-like compute framework for performing operations in distributed fashion. The framework would receive jobs from a client, split job into multiple tasks, and assign tasks to compute nodes which performed the computations. Proactive fault tolerance, fault detection and recovery were implemented to guarantee correct results even in the presence of node failures.
+
+\item {\bfseries Distributed File System:} Implemented a Distributed File System in which clients shared files with each other. Multiple clients could read/write files at the same time and the files would be replicated (distributed) across several file servers. Achieved consistency across these files using Quorum based techniques.
+
+\item {\bfseries Web Scraping \& Data Analysis:} Developed a web scrapper tool to extract restaurants data across US. The scrapper used a novel technique to locate regions precisely using Google Maps and extracted restaurant info from those regions through Yelp. Later, performed Exploratory data analysis to visualize trends in the data and Sentiment analysis on the user reviews to suggest quality improvements for restaurant owners.
+
 \end{itemize}
-\vspace{-0.5cm}
-
-\iffalse
-\subsection*{Industry Projects}
-
-\begin{itemize}
- \itemsep0em
- %\begin{itemize}
- \item Designed a framework for \textbf{Logging User Activities} on WillowTV and provided \textbf{APIs for Querying} the Logs. Nginx and uWSGI were used in combination so that system could handle large number of simaltaneous requests. MongoDB's Schema-less approach provided horizontal scalability.   
- 
- \item Designed \textbf{Digital Ads Inventory Management System}. System was designed to interpret the playout logs, calculate the total ads of the client played during live/non-live events. It acted as scheduler by providing exact number of ads to be played of specific client on a given day to achieve target committed to client.
- 
-\item Designed \textbf{Android App} for Willow TV. This apps allows users to watch live cricket,highlights,replays and scorecard. I was responsible for designing the backend API as well as the UI for the app.
-
-
-\iffalse
-\item Integrated \textbf{AuthorizeNet Payment Gateway} on WillowTV. Interaction with AuthorizeNet was done using \textbf{REST APIs} with XML used to post the request to AuthNet APIs. One of the main Challenges was to ensure \textbf{PCI compliance}, which was achieved by storing Credit Card information on payment Gateway servers.
-
-\item Designed \textbf{Flipkart Flyte Mp3 App on Windows 8}. This app allows users to \textbf{search} the catalog, preview a song, \textbf{purchase songs}, and then \textbf{download} any owned content from the flyte cloud. I made the process of downloading songs more robust and improved \textbf{memory usage} by implementing \textbf{UI virtualization}. 
-\fi
-\end{itemize}
-\fi
-
-\iffalse
- \subsection*{Achievements}
-\begin{itemize}
- \itemsep0em
- \item  Ranked 18th in \textbf{ACM ICPC Regionals} held at Amritapuri in December 2010.
- \item  Been in top 10 two times in India in \textbf{Algorithm Challenge} conducted by Codechef.
-\iffalse
- \item  Successfully completed online courses \textbf{Machine Learning} (by Andrew Ng) and \textbf{Computing for Data Analysis} (by Roger D. Peng) on Coursera
- \item  Actively participated in many programming contests orgainsed on \textbf{TopCoder,SPOJ,Codeforces}.
-\fi
-\end{itemize}
-\fi
-
-\iffalse
- \subsection*{Other Interests}
-\begin{itemize}
- \itemsep0em
- \item  My Github profile :- \url{https://github.com/akshayk0406}
- \iffalse
- \item  Designed and Developed \textbf{Football News Aggregator System} which would regularly fetch RSS feeds from football web-sites and use clustering algorithm to show similar news together.
- \fi
- \item  Organized \textbf{onsite programming contest} organized during felicity(Tech Fest) 2011.
-\end{itemize}
-
-\subsection*{Contact Information}
-\begin{supertabular}{p{6.0cm} x{6.0cm}!{\color{lightgrey}\vrule} p{11cm}}
-326 6th Avenue SE & \textbf{Personal E-mail}  & \texttt{kulka182@umn.edu} \\
-Apartment 104 & \textbf{Mobile}& +1 612-404-4596 \\%[3pt]
-Minneapolis,MN - 55414 &
-\end{supertabular}
-\fi
 \end{document}
