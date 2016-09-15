@@ -28,18 +28,27 @@
 \usepackage{lipsum}
 %\setlist[itemize]{leftmargin=0in}
 
+\usepackage{multirow}	
 \begin{document}
 \pagenumbering{gobble}
 
+\hspace{130pt} {\bfseries {\huge Rohan Sadale}}
+\vspace{10pt}
 
-\begin{raggedleft}
-{\bfseries {\huge Rohan Sadale}}
-\end{raggedleft}
+\noindent \begin{minipage}[b]{0.3\hsize}
+326 6th Ave SE, Apt 101,  \\
+Minneapolis, MN 55414 \\
++1(612)404 4593
+\end{minipage}
 \hfill
-\hfill
-\begin{raggedright}
-$^{\text{{\bfseries {\normalsize Email}}: {\normalsize sadal005@umn.edu}}{\text{\hspace{28pt}{\bfseries {\normalsize Phone}}: {\normalsize +1(612)404 4593}}}}_{\text{\vspace{10pt}{\bfseries {\normalsize Address:}} {\normalsize 326 6th Ave SE, Apt 101, Minneapolis, MN, 55414}}}$
-\end{raggedright}
+\begin{minipage}[b]{0.52\hsize}
+{\bfseries {\normalsize Email}}: {\normalsize sadal005@umn.edu} \\
+{\bfseries {\normalsize LinkedIn:}} \normalsize \url{https://www.linkedin.com/in/rohansadale} \\
+{\bfseries Github:} \normalsize \url{https://github.com/rohansadale}
+\end{minipage}
+
+
+
 \vspace{4pt}
 
 \hrule
@@ -94,15 +103,15 @@ $^{\text{{\bfseries {\normalsize Email}}: {\normalsize sadal005@umn.edu}}{\text{
 \vspace{-0.1cm}
 \begin{itemize}[leftmargin=0.15in]
 \setlength{\itemsep}{0pt}%
+\item {\bfseries Web Scraping \& Data Analysis:} Developed a web scrapper to extract restaurants' data across US. The scrapper used a novel technique to locate regions precisely using Google Maps and extracted restaurant info from those regions through Yelp. Later, performed Exploratory data analysis to visualize trends in the data and Sentiment analysis on the user reviews to suggest quality improvements for restaurant owners.
+
 \item {\bfseries A Scalable Movie Recommendation System:} Built a movie recommendation system for suggesting movies to users. The project involved multiple steps such as extracting data from RDBMS, Web Logs and APIs, cleaning data using Hadoop MapReduce jobs, data filtering and transformation using Apache Hive and building scalable item-based recommender using Apache Mahout.
 
-\item {\bfseries Clustering and Classification of emails:} Implemented \textit{highly efficient} Ridge Regression classifier, kNN classifier, Centroid-based classifier and Spherical k-means for classifying and clustering emails into categories. The project involved multiple steps such as getting the dataset, pre-processing the dataset, classifying/clustering the dataset, and evaluating the quality of the solution.
+\item {\bfseries Clustering and Classification of emails:} Implemented  \textit{(from scratch) highly efficient} Ridge Regression classifier, kNN classifier, Centroid-based classifier and Spherical k-means for classifying and clustering emails into categories.
 
 \item {\bfseries MapReduce like Compute Framework:} Developed a MapReduce-like compute framework for performing operations in distributed fashion. The framework would receive jobs from a client, split job into multiple tasks, and assign tasks to compute nodes which performed the computations. Proactive fault tolerance, fault detection and recovery were implemented to guarantee correct results even in the presence of node failures.
 
 \item {\bfseries Distributed File System:} Implemented a Distributed File System in which clients shared files with each other. Multiple clients could read/write files at the same time and the files would be replicated (distributed) across several file servers. Achieved consistency across these files using Quorum based techniques.
-
-\item {\bfseries Web Scraping \& Data Analysis:} Developed a web scrapper tool to extract restaurants data across US. The scrapper used a novel technique to locate regions precisely using Google Maps and extracted restaurant info from those regions through Yelp. Later, performed Exploratory data analysis to visualize trends in the data and Sentiment analysis on the user reviews to suggest quality improvements for restaurant owners.
 
 \end{itemize}
 \end{document}
