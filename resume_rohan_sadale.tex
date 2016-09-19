@@ -29,22 +29,23 @@
 %\setlist[itemize]{leftmargin=0in}
 
 \usepackage{multirow}	
+
 \begin{document}
 \pagenumbering{gobble}
 
-\hspace{2in} {{\bfseries {\huge Rohan Sadale}}}
-\vspace{10pt}
+ 
+
+\hspace{1.9in} {{\bfseries {\huge {\fontfamily{qag}\selectfont ROHAN SADALE}}}}
+\vspace{14pt}
 
 \noindent \begin{minipage}[b]{0.3\hsize}
-326 6th Ave SE, Apt 101,  \\
-Minneapolis, MN 55414 \\
-+1(612)404 4593
+\normalsize 326 6th Ave SE, Apt 101,  \\
+\normalsize Minneapolis MN 55414
 \end{minipage}
 \hfill
-\begin{minipage}[b]{0.40\hsize}
-{\bfseries {\normalsize Email}}: {\normalsize sadal005@umn.edu} \\
-{\bfseries Github:} \normalsize \url{github.com/rohansadale} \\
-{\bfseries {\normalsize LinkedIn:}} \normalsize \url{linkedin.com/in/rohansadale}
+\begin{minipage}[b]{0.50 \hsize}
+{\bfseries {\normalsize Phone}}: {\normalsize {+1(612)404-4593}} \hspace{0.15in} {\bfseries {\normalsize Email}}: {\normalsize \url{sadal005@umn.edu}} \\
+{\bfseries {\normalsize LinkedIn:}} \normalsize \url{www.linkedin.com/in/rohansadale}
 \end{minipage}
 
 \vspace{4pt}
@@ -65,23 +66,25 @@ Minneapolis, MN 55414 \\
 \vspace{-0.1cm}
 \begin{itemize}[leftmargin=*]
  \item[]  \textbf{Languages:}  Python, C/C++, R, Javascript, Shell Scripting and PL/SQL
- \vspace{-0.25cm}
+ \vspace{-0.22cm}
  \item[]   \textbf{Databases:}  MongoDB, MySQL and Oracle 11g
-  \vspace{-0.25cm}
+  \vspace{-0.22cm}
  \item[]   \textbf{Data Analysis/Big Data Tools:} Tableau, Hadoop, Pig, Hive and Spark
+ \vspace{-0.22cm}
+ \item[] \textbf{Github:} \url{github.com/rohansadale}
 \end{itemize}
 
 \subsection*{\underline{Industry Experience}}
-\vspace{-0.1cm}
+\vspace{-0.05cm}
 \begin{itemize}[leftmargin=0.15in]
 \item {\bfseries Veritas Technologies LLC}, Mountain View, CA, USA \\
 {\sl Data Science Intern}  \hfill June 2016 - September 2016
 \vspace{-0.25cm}
 \begin{itemize}
 \setlength{\itemsep}{0pt}%
-\item Designed a data collection pipeline to extract appliance health(performance) information from MongoDB and unstructured archived logs files; \textit {intelligently scrapped \~{}300GB of archived data}
-\item Performed Exploratory Data Analytics on appliance data to understand failure correlations and trends/patterns in their performance over time.
-\item Communicated and presented findings, orally \& visually in a way that can be easily understood by business counterparts.
+\item Designed a data collection pipeline to extract appliance health \textit{(performance)} information from MongoDB and unstructured archived logs files; \textit {intelligently scrapped \~{}300GB of archived data}
+\item Performed Exploratory Data Analytics on appliance data to understand failure correlations and trends/patterns in their performance over time
+\item Communicated and presented findings, orally \& visually in a way that can be easily understood by hardware design teams and business counterparts \textit{(used Tableau dashboards for creating visualizations)}
 \end{itemize}
 
 \item  {\bfseries Barclays}, Pune, MH, India \\
@@ -90,27 +93,27 @@ Minneapolis, MN 55414 \\
 \begin{itemize}
 \setlength{\itemsep}{0pt}%
 \item Designed a streamlined Database-ETL system for generation of financial reports for APAC regulatory bodies
-\item Implemented underlying Database architecture, data models and methods for data extraction from heterogeneous trading databases
-\item Developed data transformation and statistical analysis packages using Python and Oracle PL/SQL
-\item Maintained and enhanced batch framework using Perl and Shell scripting
-\item Delivered Functional specifications, Scope documents, Interface documents and data mapping documents
+\item Implemented underlying Database architecture, data models and methods for data extraction from heterogeneous trading databases; developed data transformation and statistical analysis packages using Python
+\item Maintained and enhanced batch framework using Perl and Shell scripting; delivered Functional specifications, Scope documents, Interface documents and data mapping documents
 \item Practiced agile methodology for project deliveries; configured JIRA for the implementation
 \end{itemize}
 \end{itemize}
 
-\subsection*{\underline{Academic Projects}}
+\subsection*{\underline{Academic/Personal Projects}}
 \vspace{-0.1cm}
 \begin{itemize}[leftmargin=0.15in]
 \setlength{\itemsep}{0pt}%
-\item {\bfseries Web Scraping \& Data Analysis:} Developed a web scrapper to extract restaurants' data across US. The scrapper used a novel technique to locate regions precisely using Google Maps and extracted restaurant info from those regions through Yelp. Later, performed Exploratory data analysis to visualize trends in the data and Sentiment analysis on the user reviews to suggest quality improvements for restaurant owners.
-
-\item {\bfseries A Scalable Movie Recommendation System:} Built a movie recommendation system for suggesting movies to users. The project involved multiple steps such as extracting data from RDBMS, Web Logs and APIs, cleaning data using Hadoop MapReduce jobs, data filtering and transformation using Apache Hive and building scalable item-based recommender using Apache Mahout.
+\item {\bfseries [Kaggle] Animal Shelter Outcomes:} Built a predictive model pipeline using Random Forest, Logistic Regression and Xgboost to predict the outcome of animals as they leave Animal Center; performed exploratory data analysis to get insights which could help shelters focus their energy on specific animals who need a little extra help in finding new home. \textit{I was ranked in top 8\% (from \~{}1600 participants).}
 
 \item {\bfseries Clustering and Classification of emails:} Implemented  \textit{(from scratch) highly efficient} Ridge Regression classifier, kNN classifier, Centroid-based classifier and Spherical k-means for classifying and clustering emails into categories.
 
+\item {\bfseries Web Scraping \& Data Analysis:} Developed a web scrapper to extract restaurants' data across US. The scrapper used a novel technique to locate regions precisely using Google Maps and extracted restaurant info from those regions through Yelp. Later, performed Exploratory data analysis to visualize trends in the data and Sentiment analysis on the user reviews to suggest quality improvements for restaurant owners.
+
+\item {\bfseries A Scalable Movie Recommendation System:} Built a movie recommendation system using Big Data Tools. The project involved multiple steps such as extracting data from MySQL and Twitter (scraping), data cleansing using Apache Hive and building a scalable item-based recommender using Apache Mahout.
+
 \item {\bfseries MapReduce like Compute Framework:} Developed a MapReduce-like compute framework for performing operations in distributed fashion. The framework would receive jobs from a client, split job into multiple tasks, and assign tasks to compute nodes which performed the computations. Proactive fault tolerance, fault detection and recovery were implemented to guarantee correct results even in the presence of node failures.
 
-\item {\bfseries Distributed File System:} Implemented a Distributed File System in which clients shared files with each other. Multiple clients could read/write files at the same time and the files would be replicated (distributed) across several file servers. Achieved consistency across these files using Quorum based techniques.
+\item {\bfseries Distributed File System:} Implemented a Distributed File System in which clients shared files with each other. Multiple clients could read/write files at the same time and the files would be replicated (distributed) across several file servers. Consistency across these files was achieved using Quorum based techniques.
 
 \end{itemize}
 \end{document}
