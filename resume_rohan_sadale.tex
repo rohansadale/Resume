@@ -69,29 +69,45 @@
 \subsection*{\underline{Technical Skills}}
 \vspace{-0.1cm}
 \begin{itemize}[leftmargin=*]
- \item[]  \textbf{Languages:}  Python,Go, Shell, Ansible and Javascript
+ \item[]  \textbf{Languages:}  Python, Go, Shell, Ansible and Javascript
  \vspace{-0.22cm}
  \item[]   \textbf{Databases:}  MongoDB, MySQL and Oracle 11g
   \vspace{-0.22cm}
-   \item[]   \textbf{Softwares/Utilities:}  Hadoop, Spark, Tableau, scikit-learn and Tensorflow
+   \item[]   \textbf{Softwares/Utilities:} Hadoop, Spark, Tableau, scikit-learn and Tensorflow
 \end{itemize}
 
 \subsection*{\underline{Industry Experience}}
-\vspace{-0.05cm}
+\vspace{-0.1cm}
 \begin{itemize}[leftmargin=0.15in]
 \item {\bfseries Veritas Technologies LLC}, Mountain View, CA, USA \\
-{\sl Data Science Intern}  \hfill June 2016 - September 2016
-\vspace{-0.25cm}
+{\sl Software Engineer}  \hfill June 2017 - Present
+\vspace{-0.15cm}
 \begin{itemize}
-\setlength{\itemsep}{0pt}%
-\item Designed a data collection pipeline to extract appliance health \textit{(performance)} information from MongoDB and unstructured archived logs files \textit{(on AWS S3)}; \textit {intelligently scrapped \~{}300GB of archived data}
-\item Performed Exploratory Data Analytics on appliance data to understand failure correlations and trends/patterns in their performance over time
-\item Communicated and presented findings, orally \& visually in a way that can be easily understood by hardware design teams and business counterparts \textit{(used Tableau dashboards for creating visualizations)}
+\setlength{\itemsep}{0.5pt}%
+\item Architected and developed Appliance Software Upgrade Management \textit{(ASUM)} framework. \textit{ASUM} is deployed in \textit{Veritas Flex Appliance} and \textit{Veritas Iris}. It provides -
+\begin{itemize}
+\item \textbf{\textit {zero-downtime rolling upgrade}} functionality for platform and the application upgrade
+\item software management capabilities like uploading, deleting and validating packages using RESTful APIs
+\end{itemize}
+%\textit{ASUM} is deployed in - \textit{Flex Appliance} and \textit{Veritas Iris}.
+
+\item Designed an innovative solution for unit/integration testing of NetBackup containers. It is a framework that provides -
+\begin{itemize}
+\item ability to spin up multiple NetBackup master and media instances using private IP address
+\item easy to add method for \textit{container-based} unit tests including backup-recovery and upgrade
+\item ability to deploy a cloud instance locally using \textit{Fake S3} and perform backup-restore testing
+\end{itemize}
+\item Key contributor in developing a multi-tenancy solution for \textit{Flex Appliance} product. \textit{Flex Appliance} is a highly available and scalable solution that supports multiple instances of NetBackup services and large-scale deployments using \textit{containers} and \textit{Flexible Storage Sharing}. Main contributions include -
+\begin{itemize}
+\item end to end design and development of storage resize (expand and shrink) feature
+\item containerizing NetBackup application
+\end{itemize}
+
 \end{itemize}
 
 \item  {\bfseries Barclays}, Pune, MH, India \\
 {\sl Technology Analyst} \hfill July 2012 - July 2015
-\vspace{-0.25cm}
+\vspace{-0.15cm}
 \begin{itemize}
 \setlength{\itemsep}{0pt}%
 \item Designed a streamlined Database-ETL system for generation of financial reports for APAC regulatory bodies
@@ -105,17 +121,14 @@
 \vspace{-0.05cm}
 \begin{itemize}[leftmargin=0.15in]
 % \setlength{\itemsep}{2pt}%
-\item {\bfseries [Kaggle] Animal Shelter Outcomes:} Built an ensemble model using Random Forest, Logistic Regression and Xgboost to predict the outcome of animals as they leave Animal Center; performed exploratory data analysis to get insights which could help shelters focus their energy on specific animals who need a little extra help in finding new home. \textit{(I was ranked in top 8\% (from \~{}1600 participants).}
 
 \item {\bfseries Clustering and Classification of emails:} Implemented Ridge Regression classifier, kNN classifier, Centroid-based classifier and Spherical k-means for classifying and clustering emails into categories.
-
-\item {\bfseries Web Scraping \& Data Analysis:} Developed a scrapper to extract restaurant information from Yelp. It used a novel technique to locate regions precisely using Google Maps API and extracted information from those regions through Yelp. Later, performed Exploratory data analysis to get insights and Sentiment analysis on the user reviews to suggest quality improvements for restaurant owners.
-
-\item {\bfseries A Scalable Movie Recommendation System:} Built a movie recommendation system using Big Data Tools. The project involved multiple steps such as extracting data from MySQL and Twitter (scraping), data cleansing using Apache Hive and building a scalable item-based recommender using Apache Mahout.
 
 \item {\bfseries MapReduce like Compute Framework:} Developed a MapReduce framework for performing computations in distributed fashion; implemented techniques like proactive fault tolerance, fault detection and recovery to guarantee correct results even in the presence of node failures.
 
 \item {\bfseries Distributed File System:} Implemented a Distributed File System in which clients shared files with each other. Multiple clients could read/write files at the same time and the files would be replicated (distributed) across several file servers. Consistency across these files was achieved using Quorum based techniques.
+
+\item {\bfseries Web Scraping \& Data Analysis:} Developed a web scrapper to extract restaurant information. It used a novel technique to locate restaurants using Google Maps \& extract information using Yelp; performed exploratory data analysis and sentiment analysis on the user reviews to suggest quality improvements for restaurants.
 
 \end{itemize}
 \hrule
