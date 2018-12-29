@@ -69,38 +69,39 @@
 \subsection*{\underline{Technical Skills}}
 \vspace{-0.1cm}
 \begin{itemize}[leftmargin=*]
- \item[]  \textbf{Languages:}  Python, Go, Shell, Ansible, Java, R, Perl, PL/SQL \& Javascript
+ \item[]  \textbf{Languages:}  Python, C++, Java, Go, Shell, Ansible, R, Perl, PL/SQL \& Javascript.
  \vspace{-0.22cm}
- \item[]   \textbf{Databases:} MongoDB, MySQL \& Oracle 11g
+ \item[]   \textbf{Databases:} MongoDB, MySQL \& Oracle 11g.
   \vspace{-0.22cm}
- \item[]   \textbf{Technologies/Frameworks:} Containerization, Docker, Kubernetes, Unix, Storage Backup-Restore, REST, Jenkins, Distributed Systems, AWS, Hadoop, Spark \& scikit-learn
+ \item[]   \textbf{Technologies/Frameworks:} Distributed Systems, Microservices, Containerization, Kubernetes, Unix, Storage Backup-Restore, REST, Jenkins, AWS, Hadoop, Spark \& scikit-learn.
 \end{itemize}
 
 \subsection*{\underline{Industry Experience}}
 \vspace{-0.1cm}
 \begin{itemize}[leftmargin=0.15in]
 \item {\bfseries Veritas Technologies LLC}, Mountain View, CA, USA \\
-{\sl Software Engineer}  \hfill June 2017 - Present
+{\sl Software Engineer}  \hfill July 2017 - Present
 \vspace{-0.15cm}
 \begin{itemize}
 \setlength{\itemsep}{0.4em}%
-\item Architected and developed Appliance Software Upgrade Management \textit{(ASUM)} framework. \textit{ASUM} is deployed in \textit{Veritas Flex Appliance} and \textit{Veritas Iris}. It provides:
+\item Key contributor in development of \textit{Flex Appliance -} a Platform as a Service (PaaS) solution. It is a microservices based, highly available and scalable solution for hosting Veritas applications. It supports large scale application deployments using \textit{containers} and \textit{flexible shared storage}. Major contribution include:
 \begin{itemize}
-\item \textbf{\textit {zero-downtime rolling upgrade}} functionality for platform and the application upgrade
-\item software management capabilities like uploading, deleting and validating packages using RESTful APIs
+\item Design and development of storage expand and shrink feature.
+\item Containerization and deployment of applications on the platform.
+\item Development of rolling upgrade/auto-rollback feature for the platform.
 \end{itemize}
-%\textit{ASUM} is deployed in - \textit{Flex Appliance} and \textit{Veritas Iris}.
 
-\item Designed an innovative solution for unit/integration testing of NetBackup containers. The solution provides:
+\item Architected and developed Appliance Software Update Management \textit{(ASUM)} framework. \textit{ASUM} is deployed in \textit{Veritas Flex Appliance} and \textit{Veritas Iris}. It provides:
 \begin{itemize}
-\item ability to spin up multiple NetBackup instances in a sandbox environment using private IP address
-\item ability to deploy a cloud instance locally using \textit{Fake S3} and perform backup-restore testing
-\item easy to add method for \textit{container-based} unit tests including backup-recovery and upgrade
+\item \textbf{\textit {zero-downtime rolling upgrade and rollback}} functionality for platform(OS) and the application.
+\item software management capabilities like uploading, deleting and validating packages using RESTful APIs.
 \end{itemize}
-\item Key contributor in developing a multi-tenancy solution for \textit{Flex Appliance}. \textit{Flex Appliance} is a highly available and scalable solution that supports multiple instances of NetBackup services and large-scale deployments using \textit{containers} and \textit{Flexible Storage Sharing}. Main contributions include:
+
+\item Designed an innovative solution for testing containerized applications. The solution provides:
 \begin{itemize}
-\item end to end design and development of storage resize (expand and shrink) feature
-\item containerizing NetBackup application
+\item ability to spin up multiple instances of an application in a sandbox environment using private IP address.
+\item ability to deploy a cloud instance locally using \textit{Fake S3}.
+\item a user-friendly way to simulate platform, add integration tests and generate standardized test reports.
 \end{itemize}
 
 \end{itemize}
@@ -110,10 +111,8 @@
 \vspace{-0.15cm}
 \begin{itemize}
 \setlength{\itemsep}{0.2em}%
-\item Designed a streamlined Database-ETL system for generation of financial reports for APAC regulatory bodies
-\item Implemented underlying Database architecture, data models and methods for data extraction from heterogeneous trading databases; developed data transformation and statistical analysis packages using Python
-\item Maintained and enhanced batch framework using Perl and Shell scripting; delivered Functional specifications, Scope documents, Interface documents and data mapping documents
-\item Practiced agile methodology for project deliveries; configured JIRA for the implementation
+\item Developed a streamlined ETL system for generation of financial reports for APAC regulatory bodies.
+\item Implemented data models and techniques for extracting data from heterogeneous trading databases; developed data transformation and statistical analysis packages.
 \end{itemize}
 \end{itemize}
 
@@ -122,13 +121,13 @@
 \begin{itemize}[leftmargin=0.15in]
 % \setlength{\itemsep}{2pt}%
 
-\item {\bfseries Clustering and Classification of emails:} Implemented Ridge Regression classifier, kNN classifier, Centroid-based classifier and Spherical k-means for classifying and clustering emails into categories.
+\item {\bfseries Distributed File System:} Implemented a Distributed File System in which clients shared files with each other. Multiple clients could read/write files at the same time and the files would be replicated (distributed) across several file servers. Consistency across these files was achieved using Quorum based techniques.
 
 \item {\bfseries MapReduce like Compute Framework:} Developed a MapReduce framework for performing computations in distributed fashion; implemented techniques like proactive fault tolerance, fault detection and recovery to guarantee correct results even in the presence of node failures.
 
-\item {\bfseries Distributed File System:} Implemented a Distributed File System in which clients shared files with each other. Multiple clients could read/write files at the same time and the files would be replicated (distributed) across several file servers. Consistency across these files was achieved using Quorum based techniques.
+\item {\bfseries Clustering and Classification of emails:} Implemented Ridge Regression classifier, kNN classifier, Centroid-based classifier and Spherical k-means for classifying and clustering emails into categories.
 
-\item {\bfseries Web Scraping \& Data Analysis:} Developed a web scrapper to extract restaurant information. It used a novel technique to locate restaurants using Google Maps \& extract information using Yelp; performed exploratory data analysis and sentiment analysis on the user reviews to suggest quality improvements for restaurants.
+\item {\bfseries File system using Chord:} Implemented a file system using Chord \textit{(a protocol for peer to peer distributed hash table).} Clients could read/write files which would be distributed\textit{(stored)} across nodes in the system. The system was highly scalable and provided fast access \textit{(O(logn))} to the files. 
 
 \end{itemize}
 \hrule
